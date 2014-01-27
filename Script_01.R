@@ -9,3 +9,5 @@ y <- a+b*x+rnorm(n, sd=(sigSq))
 
 plot(x,y)
 abline(a,b,col="green", lwd=2)
+
+write(avgX, "avgX.txt")
