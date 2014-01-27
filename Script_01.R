@@ -1,6 +1,6 @@
 a <- 2
 b <- 4
-n <- 40
+n <- 60
 
 x <- runif(n)
 (avgX <- mean(x))
